@@ -1,0 +1,44 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Welcome\n\n\nThis is my edit\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#welcome", 
+            "text": "This is my edit", 
+            "title": "Welcome"
+        }, 
+        {
+            "location": "/#commands", 
+            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
+            "title": "Commands"
+        }, 
+        {
+            "location": "/#project-layout", 
+            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "title": "Project layout"
+        }, 
+        {
+            "location": "/course_rationale/", 
+            "text": "Why am I taking this course?\n\n\nI haven't completed an open online course since my numerous times through \n#ds106\n, and even then the \"requirements\" for completion were so loose, it's debatable I really have the dedication and commitment to see an open course through to the end.\n\n\n\nIt is with that introduction that I preface that I am very interested in taking #hist3907o because I like the idea of handling historical data, \nmaking cool things\n, learning github and markdown, and hopefully some other tools: gephi or some sort of \nopen map application\n?\n\n\nI might add at this point, I'm not sure that participation in this course is completely open. Do I need to register and pay?\n\n\n\nI'm not against paying for a course but I think I'll see if I can make my way through module 1 before I put myself on the radar. I neither want to waste Professor Graham's time nor embarrass myself. I'll not officially sign up until I'm sure I have what it takes to complete this. I'm editing in Dillinger right now and have installed Atom and Git-it; I'm off to a good start. I think? There are so many rabbit holes to explore, it's taking exceptionally long to complete any particular task. That's what Saturday nights are for, right?\n\n\nAdditionally I should mention, I've been working with two very interesting historians at Brock as part of my work in educational development and online course design and have started working a bit with a third to work out some ways we can bring more digital humanities within our history department.\n\n\nFinally, some of the most interesting people I follow on twitter consider themselves digital historians and I'd like to understand their world a bit better.\n\n\n\n\nYou can find my existing blog at http://gforsythe.ca/\n\n\ntesting\n\n\nWhat happens if I insert a reference here? [@weingart_joys_2013, 67]\n\n\nBibliography", 
+            "title": "Module_1_Notes"
+        }, 
+        {
+            "location": "/course_rationale/#why-am-i-taking-this-course", 
+            "text": "I haven't completed an open online course since my numerous times through  #ds106 , and even then the \"requirements\" for completion were so loose, it's debatable I really have the dedication and commitment to see an open course through to the end.  It is with that introduction that I preface that I am very interested in taking #hist3907o because I like the idea of handling historical data,  making cool things , learning github and markdown, and hopefully some other tools: gephi or some sort of  open map application ?  I might add at this point, I'm not sure that participation in this course is completely open. Do I need to register and pay?  I'm not against paying for a course but I think I'll see if I can make my way through module 1 before I put myself on the radar. I neither want to waste Professor Graham's time nor embarrass myself. I'll not officially sign up until I'm sure I have what it takes to complete this. I'm editing in Dillinger right now and have installed Atom and Git-it; I'm off to a good start. I think? There are so many rabbit holes to explore, it's taking exceptionally long to complete any particular task. That's what Saturday nights are for, right?  Additionally I should mention, I've been working with two very interesting historians at Brock as part of my work in educational development and online course design and have started working a bit with a third to work out some ways we can bring more digital humanities within our history department.  Finally, some of the most interesting people I follow on twitter consider themselves digital historians and I'd like to understand their world a bit better.   You can find my existing blog at http://gforsythe.ca/", 
+            "title": "Why am I taking this course?"
+        }, 
+        {
+            "location": "/course_rationale/#testing", 
+            "text": "What happens if I insert a reference here? [@weingart_joys_2013, 67]", 
+            "title": "testing"
+        }, 
+        {
+            "location": "/course_rationale/#bibliography", 
+            "text": "", 
+            "title": "Bibliography"
+        }
+    ]
+}
