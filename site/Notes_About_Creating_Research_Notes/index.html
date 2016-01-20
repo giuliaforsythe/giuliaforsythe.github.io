@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>README - My Research Notebook</title>
+  <title>Notes About Creating Research Notes - My Research Notebook</title>
   
 
   <link rel="shortcut icon" href="../img/favicon.ico">
@@ -20,7 +20,7 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "README";
+    var mkdocs_page_name = "Notes About Creating Research Notes";
   </script>
   
   <script src="../js/jquery-2.1.1.min.js"></script>
@@ -57,22 +57,22 @@
 <li>
           
             <li>
-    <li class="toctree-l1 ">
-        <a class="" href="../Notes_About_Creating_Research_Notes/">Notes About Creating Research Notes</a>
+    <li class="toctree-l1 current">
+        <a class="current" href="./">Notes About Creating Research Notes</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#tacit-bits-of-creating-web-facing-github-research-notes">Tacit bits of creating web facing github research notes</a></li>
+                
+            
+            </ul>
         
     </li>
 <li>
           
             <li>
-    <li class="toctree-l1 current">
-        <a class="current" href="./">README</a>
-        
-            <ul>
-            
-                <li class="toctree-l3"><a href="#research-notebook">research-notebook</a></li>
-                
-            
-            </ul>
+    <li class="toctree-l1 ">
+        <a class="" href="../README/">README</a>
         
     </li>
 <li>
@@ -113,7 +113,7 @@
     
       
     
-    <li>README</li>
+    <li>Notes About Creating Research Notes</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -123,9 +123,37 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="research-notebook">research-notebook</h1>
-<p>work for #hist0907o</p>
-<p>iterative process going on here, not quite up and running, but feel free to look around! My <a href="http://giuliaforsythe.github.io/index.html">cool site is available</a></p>
+                <h1 id="tacit-bits-of-creating-web-facing-github-research-notes">Tacit bits of creating web facing github research notes</h1>
+<p>I followed Alex Galarza's video instructions but I missed the part about actually linking my notes. Will I mess everything up if I go back and follow the text directions? That's the idea of github right? Version control?</p>
+<p>Okay, here I go!</p>
+<p>Well first problem: I need to install <a href="http://www.mkdocs.org/">mkdocs</a></p>
+<pre><code>&quot;MkDocs supports Python 2.6, 2.7, 3.3 and 3.4&quot;
+</code></pre>
+
+<p>I'm running mac osx 10.9.5 and python 2.7.5 
+If I'm running 2.7.5 is that the same as 2.7? Why doesn't it say 2.7.x?</p>
+<p>When I try to see what version of pip:</p>
+<pre><code> pip --version
+-bash: pip: command not found
+</code></pre>
+
+<p>I'm not running pip. This site says I need to get pip by installing the latest 2.7.x version of Python.</p>
+<p>In order to that, this <a href="https://hackercodex.com/guide/mac-osx-mavericks-10.9-configuration/index.html">site</a> says I should install Xcode (I thought this was always installed but I don't know that for sure, it's worth a try)</p>
+<p>I did a weird command and oh, hey, another text editor - vim. I made a file to tell my computer to always use 64 bit for this python stuff. Whew, glad I took care of that!</p>
+<p>Instructions didn't include how to exit vim, but yay google. </p>
+<p>```
+ESC, : x
+````</p>
+<p>ok, Xcode installed that was easy enough. Onto homebrew. </p>
+<p>Aaaand failed to connect. Oh, because I had the domain name incorrect. Copy paste is your friend. Enter password to your system. </p>
+<p>And I have homebrew. "My system is ready to brew"</p>
+<p>but I still don't have pip.
+oh yeah, install python
+and now I have pip!</p>
+<p>sheesh, why was I doing this? right, mkdocs. ok, back to that</p>
+<p>wooooohoooo! mkdocs installed but mkdocs help doesn't work (oh, that's no help is a <a href="" title="https://github.com/mkdocs/mkdocs/issues">known issue</a> Upwards and onwards, no problem, mkdocs works, that's what matters.</p>
+<p>I spent HOURS trying to figure out how to get the menu to auto-load and if you're reading this I hope I can save you hours too:</p>
+<p>If you want the file to auto-load menu items based on .md files in your research notebook folder, skip the step where you write the pages: list because this prevents the auto-generation from happening.</p>
               
             </div>
           </div>
@@ -133,10 +161,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../module1_notes/" class="btn btn-neutral float-right" title="Module1 notes"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../README/" class="btn btn-neutral float-right" title="README"/>Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../Notes_About_Creating_Research_Notes/" class="btn btn-neutral" title="Notes About Creating Research Notes"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href=".." class="btn btn-neutral" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -162,10 +190,10 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../Notes_About_Creating_Research_Notes/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href=".." style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../module1_notes/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../README/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
